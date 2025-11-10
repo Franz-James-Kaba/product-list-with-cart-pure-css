@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/Franz-James-Kaba/product-list-with-cart-pure-css)
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [View Live Site](https://franz-james-kaba.github.io/product-list-with-cart-pure-css/)
 
 ## My process
 
