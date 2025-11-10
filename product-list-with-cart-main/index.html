@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- SEO Meta Tags -->
     <meta
       name="description"
       content="Browse our delicious desserts collection and order your favorites. Features an interactive shopping cart with real-time updates."
@@ -15,7 +14,6 @@
     />
     <meta name="author" content="Franzy" />
 
-    <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Desserts - Product List with Cart" />
     <meta
@@ -24,7 +22,6 @@
     />
     <meta property="og:image" content="./preview.jpg" />
 
-    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Desserts - Product List with Cart" />
     <meta
@@ -53,23 +50,19 @@
   </head>
   <body>
     <main class="container">
-      <!-- Products Section -->
       <section class="products-section">
         <h1 class="products-title">Desserts</h1>
-       
+
           <div id="products-grid">
-            <!-- Products will be dynamically inserted here with javascript  -->
           </div>
       </section>
 
-      <!-- Cart Section at the right -->
       <aside class="cart-section" aria-label="Shopping cart">
         <div class="cart">
           <h2 class="cart-title">
             Your Cart (<span id="cart-count" aria-live="polite">0</span>)
           </h2>
 
-          <!-- Empty Cart Message -->
           <div id="empty-cart" class="empty-cart" aria-live="polite">
             <img
               src="./assets/images/illustration-empty-cart.svg"
@@ -79,7 +72,6 @@
             <p>Your added items will appear here</p>
           </div>
 
-          <!-- Cart Items container-->
           <div
             id="cart-items"
             class="cart-items"
@@ -87,10 +79,8 @@
             role="list"
             aria-label="Cart items"
           >
-            <!-- Cart items will be dynamically inserted here with javascript -->
           </div>
 
-          <!-- Order total (hidden initially) -->
           <div id="order-total" class="order-total" style="display: none">
             <div class="total-row">
               <span>Order Total</span>
@@ -118,7 +108,6 @@
         </div>
       </aside>
     </main>
-    <!-- Order Confirmation Modal (hidden initially) -->
     <div
       id="order-modal"
       class="modal"
@@ -142,7 +131,6 @@
           role="list"
           aria-label="Order items"
         >
-          <!-- Confirmed items will be inserted here -->
         </div>
 
         <div class="modal-total">
