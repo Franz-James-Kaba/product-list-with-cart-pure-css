@@ -34,8 +34,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload the product-list-with-cart-main directory
-          path: './product-list-with-cart-main'
+          # Upload the root directory (where index.html is located)
+          path: '.'
 
   # Deployment job
   deploy:
